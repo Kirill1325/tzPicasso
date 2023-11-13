@@ -3,9 +3,7 @@ import PostList from '../../widgets/PostList/UI/PostList'
 
 function Home() {
     return (
-        <div>
-            <PostList />
-        </div>
+        <PostList />
     )
 }
 
