@@ -22,6 +22,7 @@ function PostList() {
                 setPage(page + 1)
             }
         }
+        console.log(posts)
 
         document.addEventListener("scroll", onScroll)
         dispatch(setPosts(posts))
