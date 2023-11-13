@@ -1,0 +1,15 @@
+.postContainer {
+    width: 50vw;
+    height: max-content;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1em;
+    padding: 1em;
+    margin: 0 auto;
+}
+
+.postContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+}
