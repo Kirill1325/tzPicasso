@@ -22,7 +22,6 @@ function PostList() {
                 setPage(page + 1)
             }
         }
-        console.log(posts)
 
         document.addEventListener("scroll", onScroll)
         dispatch(setPosts(posts))
@@ -34,7 +33,7 @@ function PostList() {
 
     return (
         <div className={classes.postList}>
-            {posts && posts.map((post: Post, idx) => (
+            {posts && posts.map((post: Post, idx: number) => (
                 <PostItem key={idx} post={post} />
             ))}
             {isLoading && <p>...Loading</p>}
