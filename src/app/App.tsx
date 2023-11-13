@@ -10,8 +10,8 @@ function App() {
       <div className="App">
         <div className='wrapper'>
           <Routes>
-            <Route path='/posts' element={<Home />} />
-            <Route path='/posts/:id' element={<PostDetails />} />
+            <Route path='/' element={<Home />} />
+            <Route path='/:id' element={<PostDetails />} />
           </Routes>
         </div>
       </div>

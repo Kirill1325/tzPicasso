@@ -18,7 +18,7 @@ function PostDetails() {
             <div className={classes.postContent}>
                 <p>{post.id}. {post.title}</p>
                 <p>{post.body}</p>
-                <Button onClick={() => navigate(`/posts/`)}>Return</Button>
+                <Button onClick={() => navigate(`/`)}>Return</Button>
             </div>
         </div>
     )

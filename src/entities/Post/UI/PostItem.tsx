@@ -17,7 +17,7 @@ function PostItem({ post }: PostItemProps) {
       <div className={classes.postContent}>
         <p>{post.id}. {post.title}</p>
         <p>{post.body.length > 20 ? post.body.substring(0, 20) + '...' : post.body}</p>
-        <Button onClick={() => navigate(`/posts/${post.id}`)} children='See Details'></Button>
+        <Button onClick={() => navigate(`/${post.id}`)} children='See Details'></Button>
       </div>
     </div>
   )
