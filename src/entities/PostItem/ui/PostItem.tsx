@@ -1,12 +1,12 @@
 import { Card, CardContent, Typography, CardActions, Button } from "@mui/material"
-import { IPost } from "../model/types"
+import { IPost } from "../"
 import { Link } from "react-router-dom"
 
 interface PostItemProps {
     post: IPost
 }
 
-function PostItem({ post }: PostItemProps) {
+export function PostItem({ post }: PostItemProps) {
 
     return (
         <Card sx={{
@@ -36,4 +36,3 @@ function PostItem({ post }: PostItemProps) {
     )
 }
 
-export default PostItem

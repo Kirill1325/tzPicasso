@@ -3,7 +3,7 @@ import { Link, useParams } from "react-router-dom"
 import { PostApi } from "../../../entities/PostItem/api/PostService"
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 
-function PostPage() {
+export function PostPage() {
 
   const { postId } = useParams<{ postId?: string }>()
 
@@ -46,4 +46,3 @@ function PostPage() {
   )
 }
 
-export default PostPage

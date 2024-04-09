@@ -1,7 +1,7 @@
 import { Container } from "@mui/material"
-import PostList from "../../../widgets/PostList/ui/PostList"
+import { PostList } from "../../../widgets/PostList"
 
-function Home() {
+export function Home() {
   return (
     <Container>
       <PostList />
@@ -9,4 +9,3 @@ function Home() {
   )
 }
 
-export default Home

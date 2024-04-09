@@ -1,9 +1,9 @@
 import { Container, List } from "@mui/material"
-import { PostApi } from "../../../entities/PostItem/api/PostService"
-import PostItem from "../../../entities/PostItem/ui/PostItem"
+import { PostApi } from "../../../entities/PostItem"
+import { PostItem } from "../../../entities/PostItem"
 import { useEffect, useState } from "react"
 
-function PostList() {
+export function PostList() {
 
     const [page, setPage] = useState(1)
 
@@ -56,4 +56,3 @@ function PostList() {
     )
 }
 
-export default PostList

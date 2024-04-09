@@ -2,8 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './App.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import Home from '../pages/Home/ui/Home';
-import PostPage from '../pages/PostPage/ui/PostPage';
+import { Home } from '../pages/Home';
+import { PostPage } from '../pages/PostPage';
 import { Provider } from 'react-redux';
 import store from './store';
 
