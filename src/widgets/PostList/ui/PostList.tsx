@@ -29,7 +29,7 @@ export function PostList() {
             data={posts}
             endReached={loadMore}
             increaseViewportBy={200}
-            itemContent={(index, post) => {
+            itemContent={(_, post) => {
                 return <PostItem key={post.id} post={post} />
             }}
 
